@@ -9,15 +9,20 @@ TODO
 
 ## Methodology
 
-### scraper.js
+### scraper.ipynb
 
-TODO
+Jupyter Notebook file to read data from the NWSL website and merge it with
+gametimes from FBRef.
+
+### matches_fbref.csv
+
+Data for NWSL matches downloaded from
+[FBRef](https://fbref.com/en/comps/182/schedule/NWSL-Scores-and-Fixtures).
 
 ### matches.csv
 
-Data for NWSL matches. Merges data from
-[FBRef](https://fbref.com/en/comps/182/schedule/NWSL-Scores-and-Fixtures) and
-the [NWSL](https://www.nwslsoccer.com/schedule).
+Merged data from scraping the [NWSL](https://www.nwslsoccer.com/schedule)
+website.
 
 ### analysis.ipynb
 
